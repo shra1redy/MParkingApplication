@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+ <item
+        android:id="@+id/action_AddLocation"
+        android:orderInCategory="100"
+        android:title="Add Location"/>
+    
+     <item
+        android:id="@+id/action_BlockUser"
+        android:orderInCategory="200"
+        android:title="Block User"/>
+     
+     <item
+        android:id="@+id/action_summeryReports"
+        android:orderInCategory="300"
+        android:title="Summery Reports"/>
+            
+     
+       <item
+        android:id="@+id/action_Logout"
+        android:orderInCategory="400"
+        android:title="Logout"/>
+    
+    
+    
+    
+</menu>

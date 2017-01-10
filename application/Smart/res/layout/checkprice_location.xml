@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+        android:background="#ffffff"
+    android:orientation="vertical" >
+    
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="#81DAF5" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="Check Location Price"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="33dp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/relativeLayout1"
+        android:layout_marginTop="34dp"
+        android:text="Location       :"
+        android:textColor="@color/color_gray"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/SP_location"
+        android:layout_marginTop="25dp"
+        android:text="CostPerHour"
+        android:textColor="@color/color_gray"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/ET_costperhour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView3"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_toRightOf="@+id/textView3"
+        android:ems="10"
+        android:inputType="numberDecimal" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/Btn_calculate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/Btn_reset"
+        android:layout_alignBottom="@+id/Btn_reset"
+        android:layout_alignLeft="@+id/ET_costperhour"
+        android:layout_marginLeft="50dp"
+        android:background="@drawable/calculate1" />
+
+    <Spinner
+        android:id="@+id/SP_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/ET_costperhour"
+        android:layout_below="@+id/relativeLayout1"
+        android:layout_toRightOf="@+id/textView3"
+        android:ems="10" />
+
+    <Button
+        android:id="@+id/Btn_reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/Btn_calculate"
+        android:background="@drawable/reset_button" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ET_costperhour"
+        android:layout_marginTop="35dp"
+        android:layout_toLeftOf="@+id/ET_noofhours"
+        android:text="Hours :"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/color_gray" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/ET_noofhours"
+        android:layout_alignBottom="@+id/ET_noofhours"
+        android:layout_centerHorizontal="true"
+        android:text="Minutes:"
+               android:textColor="@color/color_gray"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/Et_minutes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView5"
+        android:layout_alignBottom="@+id/textView5"
+        android:layout_marginLeft="32dp"
+        android:layout_toRightOf="@+id/textView5"
+        android:ems="5"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/ET_noofhours"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView4"
+        android:layout_toLeftOf="@+id/textView5"
+        android:ems="5"
+        android:inputType="number" />
+
+</RelativeLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+ <item
+        android:id="@+id/action_Adminlogin"
+        android:orderInCategory="100"
+        android:title="Admin Login"/>
+    
+     <item
+        android:id="@+id/action_RegisterUser"
+        android:orderInCategory="200"
+        android:title="Register User"/>
+     
+    
+          
+       <item
+        android:id="@+id/action_Exit"
+        android:orderInCategory="300"
+        android:title="Exit"/>
+
+</menu>

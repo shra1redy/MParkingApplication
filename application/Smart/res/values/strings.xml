@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Smart</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    
+    
+    <string name="where_are_you"><u>Where are you at?</u></string>
+    <string name="add_listing"><u>Add listing</u></string>
+    
+    <string name="email_address">EMAIL ADDRESS</string>
+    <string name="password">PASSWORD</string>
+    <string name="confirormpwd">CONFIRM PASSWORD</string>
+    <string name="login">LOGIN</string>
+    <string name="send">SEND</string>
+    <string name="hometext">Home Search Powered By Agents</string>
+    <string name="done">DONE</string>
+  
+    <string name="forgot_password">OR</string>
+    <string name="createmyprofile_title">CREATE MY PROFILE</string>
+    <string name="do_not_have_an_account">DON\'T HAVE AN ACCOUNT?SIGN UP</string>
+    <!-- FORGOT PASSWORD -->
+    <string name="type_your_mail">type your mail address and we will send your password</string>
+    <!-- SIGN UP -->
+    <string name="sign_up">SignUp</string>
+    <string name="login_to_facebook">LOGIN TO FACEBOOK</string>
+    <string name="login_to_twitter">LOGIN TO TWITTER</string>
+    <string name="or_fill_the_form">or fill the form</string>
+    <string name="name">Name</string>
+    <string name="s_name">Surname</string>
+    <string name="emai">Email</string>
+    <string name="profile_name">Georage S.</string>
+    <string name="austin">Austin TX</string>
+    <string name="description">Descripton</string>
+    
+    
+    <!-- post -->
+       <string name="post">POST</string>
+       <string name="addmedia"><u>ADD MEDIA</u></string>
+    
+       
+       
+       
+       <string name="content_description">Content Description</string>
+    <string name="countdown_note">Thanks for checking out the Countdown Timer.\n\nThis timer is
+		ideal for use in counting down an event start date, down to the second!!  Feel free to
+		use it in your app.</string>
+    <string name="days">days</string>
+    <string name="hours">hrs</string>
+    <string name="minutes">mins</string>
+    <string name="seconds">secs</string>
+    
+    
+    
+</resources>

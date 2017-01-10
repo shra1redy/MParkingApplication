@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ProgressWheel="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white" >
+
+	<ImageView
+	    android:id="@+id/activity_cardinal_logo"
+	    android:layout_width="match_parent"
+	    android:layout_height="80dp"
+	    android:layout_alignParentTop="true"
+	    android:contentDescription="@string/content_description"
+	    android:paddingBottom="@dimen/twenty_dp"
+	    android:paddingLeft="@dimen/fifteen_dp"
+	    android:paddingRight="@dimen/fifteen_dp"
+	    android:paddingTop="@dimen/twenty_dp"
+	    android:src="@drawable/ic_launcher" />
+
+    <LinearLayout 
+        android:id="@+id/activity_countdown_wheels_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/fifteen_dp"
+        android:paddingRight="@dimen/fifteen_dp"
+        android:paddingTop="@dimen/twenty_dp"
+        android:orientation="horizontal"
+        android:layout_below="@id/activity_cardinal_logo"
+
+        android:gravity="center" >
+    
+        <com.smart.project.ProgressWheel   
+            android:id="@+id/activity_countdown_timer_days"     
+            android:layout_width="0dp"    
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            ProgressWheel:textColor="@color/center_text"
+            android:tag="Thin"
+            ProgressWheel:textSize="@dimen/twenty_four_sp" 
+            ProgressWheel:rimColor="@color/rim_color_gray"
+            ProgressWheel:barColor="@color/round_progress_blue"
+            ProgressWheel:barWidth="@dimen/six_dp"   
+            ProgressWheel:rimWidth="@dimen/one_dp"
+            android:gravity="center"
+            android:layout_gravity="center_vertical" /> 
+        
+        <com.smart.project.ProgressWheel   
+            android:id="@+id/activity_countdown_timer_hours"     
+            android:layout_width="0dp"    
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            ProgressWheel:textColor="@color/center_text"
+            android:tag="Thin"
+            ProgressWheel:textSize="@dimen/twenty_four_sp"
+			ProgressWheel:rimColor="@color/rim_color_gray"
+			ProgressWheel:barColor="@color/round_progress_blue"
+			ProgressWheel:barWidth="@dimen/six_dp"
+            ProgressWheel:rimWidth="@dimen/one_dp"
+            android:gravity="center"
+            android:layout_gravity="center_vertical" /> 
+            
+        <com.smart.project.ProgressWheel   
+            android:id="@+id/activity_countdown_timer_minutes"     
+            android:layout_width="0dp"    
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            ProgressWheel:textColor="@color/center_text"
+            android:tag="Thin"
+            ProgressWheel:textSize="@dimen/twenty_four_sp"
+			ProgressWheel:rimColor="@color/rim_color_gray"
+			ProgressWheel:barColor="@color/round_progress_blue"
+			ProgressWheel:barWidth="@dimen/six_dp"
+            ProgressWheel:rimWidth="@dimen/one_dp"
+            android:gravity="center"
+            android:layout_gravity="center_vertical" /> 
+            
+        <com.smart.project.ProgressWheel   
+            android:id="@+id/activity_countdown_timer_seconds"     
+            android:layout_width="0dp"    
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            ProgressWheel:textColor="@color/center_text"
+            android:tag="Thin"
+            ProgressWheel:textSize="@dimen/twenty_four_sp"
+			ProgressWheel:rimColor="@color/rim_color_gray"
+			ProgressWheel:barColor="@color/round_progress_blue"
+			ProgressWheel:barWidth="@dimen/six_dp"
+            ProgressWheel:rimWidth="@dimen/one_dp"
+            android:gravity="center"
+            android:layout_gravity="center_vertical" /> 
+            
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/activity_countdown_labels_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/fifteen_dp"
+        android:paddingRight="@dimen/fifteen_dp"
+        android:orientation="horizontal"
+        android:layout_below="@id/activity_countdown_wheels_layout" >
+        
+        <TextView
+            android:id="@+id/activity_countdown_timer_days_text"
+            android:textColor="@color/rim_color_gray"
+            android:tag="Thin"
+            android:textSize="@dimen/twenty_sp"
+            android:text="@string/days"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_gravity="center_vertical" />
+        
+        <TextView
+            android:id="@+id/activity_countdown_timer_hours_text"
+            android:textColor="@color/rim_color_gray"
+            android:tag="Thin"
+            android:textSize="@dimen/twenty_sp"
+            android:text="@string/hours"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_gravity="center_vertical" />
+        
+        <TextView
+            android:id="@+id/activity_countdown_timer_minutes_text"
+            android:textColor="@color/rim_color_gray"
+            android:tag="Thin"
+            android:textSize="@dimen/twenty_sp"
+            android:text="@string/minutes"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_gravity="center_vertical" />
+        
+        <TextView
+            android:id="@+id/activity_countdown_timer_seconds_text"
+            android:textColor="@color/rim_color_gray"
+            android:tag="Thin"
+            android:textSize="@dimen/twenty_sp"
+            android:text="@string/seconds"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_gravity="center_vertical" />
+    </LinearLayout>
+    
+    <TextView
+        android:id="@+id/activity_countdown_timer_note"
+        android:layout_above="@id/activity_countdown_wheels_layout"
+        android:textColor="@color/gray_text"
+        android:tag="Light"
+        android:textSize="@dimen/sixteen_sp"
+        
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:paddingLeft="@dimen/fifteen_dp"
+        android:paddingRight="@dimen/fifteen_dp"
+        
+
+    />
+
+	<ImageView
+		android:id="@+id/activity_cardinal_bird"
+		android:contentDescription="@string/content_description"
+		android:layout_alignParentBottom="true"
+		android:layout_alignParentRight="true"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:paddingLeft="@dimen/fifteen_dp"
+		android:paddingRight="@dimen/fifteen_dp"
+		android:paddingBottom="@dimen/twenty_dp"
+		android:src="@drawable/cardinal_bird"
+		android:paddingTop="@dimen/twenty_dp"/>
+
+	<TextView
+	    android:id="@+id/textView1"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentLeft="true"
+	    android:layout_centerVertical="true"
+	    android:layout_marginLeft="14dp"
+	    android:text="Cost/hr :"
+	             android:textColor="@color/color_gray_shadow"
+	    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+	<EditText
+	    android:id="@+id/ET_costperhour"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentRight="true"
+	    android:layout_centerVertical="true"
+	    android:textColor="@color/color_gray"
+	    android:ems="8" 
+	    android:text="1"
+	    android:editable="false"/>
+	<TextView
+	    android:id="@+id/textView2"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@+id/ET_costperhour"
+	    android:layout_marginTop="28dp"
+	    
+	    android:text="Total Amount :"
+	        android:textColor="@color/color_gray_shadow"
+	    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+	<EditText
+	    android:id="@+id/ET_totalAmount"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignBaseline="@+id/textView2"
+	    android:layout_alignBottom="@+id/textView2"
+	    android:layout_alignLeft="@+id/ET_costperhour"
+	    android:layout_alignParentRight="true"
+	    android:ems="10" 
+	     android:editable="false"/>
+
+	<Button
+	    android:id="@+id/Btn_stop"
+	    android:layout_width="80dp"
+	    android:layout_height="80dp"
+	    android:layout_alignRight="@+id/textView1"
+	    android:layout_below="@+id/ET_totalAmount"
+	    android:layout_marginTop="41dp"
+	    android:background="@drawable/stop" />
+
+	<Button
+	    android:id="@+id/Btn_showLocation"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignBaseline="@+id/Btn_stop"
+	    android:layout_alignBottom="@+id/Btn_stop"
+	    android:layout_alignParentRight="true"
+	    android:layout_marginRight="35dp"
+	    android:background="@drawable/showlocation_button" />
+
+</RelativeLayout>

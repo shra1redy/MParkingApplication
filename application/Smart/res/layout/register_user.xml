@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bluebackground"
+    android:orientation="vertical">
+<RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bluebackground"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="#81DAF5" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="Register"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="33dp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+<EditText
+        android:id="@+id/ET_lastname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/relativeLayout1"
+        android:layout_marginTop="60dp"
+        android:drawableLeft="@drawable/userid"
+        android:ems="10"
+        android:textColor="#585858"
+        android:background="#FFFFFF"
+        android:hint="LAST NAME" 
+        android:inputType="text">
+
+  
+    </EditText>
+
+<Button
+    android:id="@+id/Btn_save"
+    android:layout_width="wrap_content"
+    android:layout_height="45dp"
+    android:layout_alignParentRight="true"
+    android:layout_below="@+id/ET_paymentcardno"
+    android:layout_marginRight="14dp"
+    android:layout_marginTop="10dp"
+    android:text="Save"
+    android:drawableLeft="@drawable/save" />
+
+<EditText
+    android:id="@+id/ET_firstname"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:layout_alignParentLeft="true"
+    android:layout_below="@+id/relativeLayout1"
+    android:layout_marginTop="10dp"
+    android:background="#FFFFFF"
+    android:drawableLeft="@drawable/userid"
+    android:ems="10"
+    android:hint="FIRST NAME"
+    android:inputType="text"
+    android:textColor="#585858" >
+
+    <requestFocus />
+</EditText>
+
+<EditText
+    android:id="@+id/ET_Emailaddress"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_below="@+id/ET_lastname"
+    android:layout_marginTop="10dp"
+    android:background="#FFFFFF"
+    android:drawableLeft="@drawable/email_icon"
+    android:ems="10"
+    android:hint="EMAIL ID"
+    android:inputType="textEmailAddress"
+    android:textColor="#585858" />
+
+
+<EditText
+    android:id="@+id/ET_Userid"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_below="@+id/ET_Emailaddress"
+    android:layout_marginTop="10dp"
+    android:background="#FFFFFF"
+    android:drawableLeft="@drawable/userid"
+    android:ems="10"
+    android:hint="USER ID"
+    android:textColor="#585858" />
+<EditText
+    android:id="@+id/ET_password"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_below="@+id/ET_Userid"
+    android:layout_marginTop="10dp"
+    android:background="#FFFFFF"
+    android:drawableLeft="@drawable/password"
+    android:ems="10"
+    android:hint="PASSWORD"
+    android:inputType="textPassword"
+    android:textColor="#585858" />
+
+<EditText
+    android:id="@+id/ET_phoneno"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_below="@+id/ET_password"
+    android:layout_marginTop="10dp"
+    android:background="#FFFFFF"
+    android:drawableLeft="@drawable/phoneno"
+    android:ems="10"
+    android:hint="PHONE NO"
+    android:inputType="phone"
+    android:textColor="#585858" />
+<EditText
+    android:id="@+id/ET_address"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_below="@+id/ET_phoneno"
+    android:layout_marginTop="10dp"
+    android:background="#FFFFFF"
+    android:drawableLeft="@drawable/address_icon"
+    android:ems="10"
+    android:hint="ADDRESS"
+    android:textColor="#585858"
+    android:inputType="text" />
+
+
+<EditText
+    android:id="@+id/ET_licenceno"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_below="@+id/ET_address"
+    android:layout_marginTop="10dp"
+    android:background="#FFFFFF"
+    android:drawableLeft="@drawable/drivers_license_icon"
+    android:ems="10"
+    android:hint="DRIVING LICENCE NO"
+    android:textColor="#585858" />
+
+<EditText
+    android:id="@+id/ET_paymentcardno"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_below="@+id/ET_licenceno"
+    android:layout_marginTop="10dp"
+    android:background="#FFFFFF"
+    android:drawableLeft="@drawable/paymentcardno"
+    android:ems="10"
+    android:hint="PAYMENT CARD NO"
+    android:textColor="#585858" />
+<Button
+    android:id="@+id/Btn_back"
+    android:layout_width="wrap_content"
+    android:layout_height="45dp"
+    android:layout_alignParentLeft="true"
+    android:layout_alignTop="@+id/Btn_save"
+    android:layout_marginLeft="17dp"
+    android:drawableLeft="@drawable/back"
+    android:text="Back" />
+
+</RelativeLayout></ScrollView>

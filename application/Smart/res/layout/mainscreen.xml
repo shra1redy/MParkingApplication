@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/simplebackground">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:src="@drawable/smartparkinglogo" />"
+
+    
+
+    <Button
+        android:id="@+id/Btn_editVehicletypesettings"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignLeft="@+id/imageView1"
+        android:layout_below="@+id/imageView1"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/parking_tickets" />
+
+    <Button
+        android:id="@+id/Btn_bluetoothSettings"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignBaseline="@+id/Btn_editVehicletypesettings"
+        android:layout_alignBottom="@+id/Btn_editVehicletypesettings"
+        android:layout_alignRight="@+id/imageView1"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/setting" />
+
+    <Button
+        android:id="@+id/Btn_reports"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignLeft="@+id/Btn_editVehicletypesettings"
+        android:layout_below="@+id/Btn_editVehicletypesettings"
+        android:layout_marginTop="62dp"
+        android:background="@drawable/reports" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/Btn_editVehicletypesettings"
+        android:text="PARKING TICKETS"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView1"
+        android:layout_alignBottom="@+id/textView1"
+        android:layout_alignLeft="@+id/Btn_bluetoothSettings"
+        android:text="SETTINGS"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/Btn_reports"
+        android:layout_below="@+id/Btn_reports"
+        android:text="REPORTS"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</RelativeLayout>

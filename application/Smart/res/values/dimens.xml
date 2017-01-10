@@ -1,0 +1,104 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    
+    
+    <!-- login screen . -->
+    <dimen name="login_screen_image_height">150dp</dimen>
+    <dimen  name="login_screen_image_width">200dp</dimen>
+    
+     <!-- Parent top view. -->
+    <dimen name="margin_parent_top">20dp</dimen>
+    <dimen name="top_bar_height_activity">50dp</dimen>
+    <dimen name="real_stir_first">40dp</dimen>
+    
+    
+    <!-- Align view. -->
+    <dimen name="margin_left">10dp</dimen>
+    <dimen name="margin_right">10dp</dimen>
+    <dimen name="margin_top">10dp</dimen>
+    <dimen name="margin_bottom">10dp</dimen>
+    <dimen name="padding_left">5dp</dimen>
+    <dimen name="padding_right">5dp</dimen>
+    <dimen name="padding_top">5dp</dimen>
+    <dimen name="padding_bottom">5dp</dimen>
+       
+    <!-- Text Size. -->
+     <dimen name="text_size_mini">12sp</dimen>
+    <dimen name="text_size_small">14sp</dimen>
+    <dimen name="text_size_medium">16sp</dimen>
+    <dimen name="text_size_large">18sp</dimen>
+    <dimen name="text_size_xlarge">18sp</dimen>  
+   <dimen name="text_size_tab_text">12sp</dimen>
+    <!-- Other View. -->
+    
+    <dimen name="slidingmenu_offset">48dp</dimen>
+    <dimen name="list_padding">10dp</dimen>
+    <dimen name="list_paddingTop">8dp</dimen>
+    <dimen name="list_paddingBottom">8dp</dimen>
+    <dimen name="shadow_width">15dp</dimen>
+    <dimen name="standard_spacing">5.0dip</dimen>
+    
+     <!-- Default screen margins -->
+    <dimen name="zeroDp">0dp</dimen>
+    <dimen name="oneDp">1dp</dimen>
+    <dimen name="twoDP">2dp</dimen>
+    <dimen name="threeDp">3dp</dimen>
+    <dimen name="fiveDp">5dp</dimen>
+    <dimen name="eightDp">8dp</dimen>
+    <dimen name="tenDp">10dp</dimen>
+    <dimen name="fifteenDp">15dp</dimen>
+    <dimen name="twentyDp">20dp</dimen>
+    <dimen name="thirtyDp">30dp</dimen>
+    <dimen name="fourtyDp">40dp</dimen>
+    <dimen name="fiftyDp">50dp</dimen>
+    <dimen name="sixtyDp">60dp</dimen>
+    <dimen name="oneFiftyDp">150dp</dimen>  
+    
+      <dimen name="one_dp">1dp</dimen>
+    <dimen name="six_dp">6dp</dimen>
+    <dimen name="fifteen_dp">15dp</dimen>
+    <dimen name="twenty_dp">20dp</dimen>
+    <dimen name="twenty_two_dp">22dp</dimen>
+
+    <!-- SP -->
+    <dimen name="sixteen_sp">16sp</dimen>
+    <dimen name="twenty_sp">20sp</dimen>
+    <dimen name="twenty_four_sp">24sp</dimen>
+
+<dimen name="homesearchsize">16dp</dimen>
+<dimen name="orsize">22dp</dimen>
+<dimen name="doyouhaveaccountsize">25dp</dimen>
+<dimen name="m1">24dp</dimen>
+<dimen name="m2">24dp</dimen>
+<dimen name="s1">22dp</dimen>
+<dimen name="w1">150dp</dimen>
+<dimen name="h1">42dp</dimen>
+<dimen name="m3">20dp</dimen>
+
+
+<!-- signup -->
+<dimen name="cremaemyprofilesize">24dp</dimen>
+<dimen name="signuptextsize">24dp</dimen>
+<dimen name="h11">70dp</dimen>
+<dimen name="h12">40dp</dimen>
+<dimen name="m11">10dp</dimen>
+<dimen name="m12">20dp</dimen>
+<dimen name="signuptextsize1">26dp</dimen>
+
+<!-- activity_post -->
+<dimen name="h4">250dp</dimen>
+<dimen name="h5">18dp</dimen>
+<dimen name="s5">22dp</dimen>
+<dimen name="m4">22dp</dimen>
+<dimen name="m5">19dp</dimen>
+<dimen name="h2">100dp</dimen>
+<dimen name="m6">10dp</dimen>
+<dimen name="s6">27dp</dimen>
+<dimen name="m9">30dp</dimen>
+<dimen name="m10">15dp</dimen>
+<dimen name="w6">270dp</dimen>
+<dimen name="h6">80dp</dimen>
+</resources>

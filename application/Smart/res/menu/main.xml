@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_SmartPark"
+        android:orderInCategory="100"
+        android:title="Smart Park"/>
+    
+     <item
+        android:id="@+id/action_RegisterUser"
+        android:orderInCategory="200"
+        android:title="Register User"/>
+     
+     <item
+        android:id="@+id/action_Reports"
+        android:orderInCategory="300"
+        android:title="Reports"/>
+          <item
+        android:id="@+id/action_PriceCalulator"
+        android:orderInCategory="400"
+        android:title="PriceCalulator"/>
+          <item
+        android:id="@+id/action_slot_available"
+        android:orderInCategory="500"
+        android:title="Slots Available"/>
+       <item
+        android:id="@+id/action_Logout"
+        android:orderInCategory="600"
+        android:title="Logout"/>
+
+</menu>
